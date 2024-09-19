@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+                <script src="https://cdn.tailwindcss.com"></script>
+                <title>Happy Birthday Nency Bhai</title>
+                <style>
+                        @font-face {
+                                font-family: 'Helv';
+                                src: url('./fonts/HelveticaNowDisplay-Black.woff2') format('woff2');
+                        }
+
+                        .grid>div {
+                                grid-row: var(--r);
+                                grid-column: var(--c);
+                        }
+
+                        @import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+                        .loading {
+                                position: fixed;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background: #000;
+                                z-index: 9999;
+                        }
+
+                        .loading-text {
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                left: 0;
+                                right: 0;
+                                margin: auto;
+                                text-align: center;
+                                width: 100%;
+                                height: 100px;
+                                line-height: 100px;
+                        }
+
+                        .loading-text span {
+                                display: inline-block;
+                                margin: 0 5px;
+                                color: #fff;
+                                font-family: "Quattrocento Sans", sans-serif;
+                        }
+
+                        .loading-text span:nth-child(1) {
+                                filter: blur(0px);
+                                -webkit-animation: blur-text 1.5s 0s infinite linear alternate;
+                                animation: blur-text 1.5s 0s infinite linear alternate;
+                        }
+
+                        .loading-text span:nth-child(2) {
+                                filter: blur(0px);
+                                -webkit-animation: blur-text 1.5s 0.2s infinite linear alternate;
+                                animation: blur-text 1.5s 0.2s infinite linear alternate;
+                        }
+
+                        .loading-text span:nth-child(3) {
+                                filter: blur(0px);
+                                -webkit-animation: blur-text 1.5s 0.4s infinite linear alternate;
+                                animation: blur-text 1.5s 0.4s infinite linear alternate;
+                        }
+
+                        .loading-text span:nth-child(4) {
+                                filter: blur(0px);
+                                -webkit-animation: blur-text 1.5s 0.6s infinite linear alternate;
+                                animation: blur-text 1.5s 0.6s infinite linear alternate;
+                        }
+
+                        .loading-text span:nth-child(5) {
+                                filter: blur(0px);
+                                -webkit-animation: blur-text 1.5s 0.8s infinite linear alternate;
+                                animation: blur-text 1.5s 0.8s infinite linear alternate;
+                        }
+
+                        .loading-text span:nth-child(6) {
+                                filter: blur(0px);
+                                -webkit-animation: blur-text 1.5s 1s infinite linear alternate;
+                                animation: blur-text 1.5s 1s infinite linear alternate;
+                        }
+
+                        .loading-text span:nth-child(7) {
+                                filter: blur(0px);
+                                -webkit-animation: blur-text 1.5s 1.2s infinite linear alternate;
+                                animation: blur-text 1.5s 1.2s infinite linear alternate;
+                        }
+
+                        @-webkit-keyframes blur-text {
+                                0% {
+                                        filter: blur(0px);
+                                }
+
+                                100% {
+                                        filter: blur(4px);
+                                }
+                        }
+
+                        @keyframes blur-text {
+                                0% {
+                                        filter: blur(0px);
+                                }
+
+                                100% {
+                                        filter: blur(4px);
+                                }
+                        }
+                </style>
+        </head>
+        <body>
+                <div class="loading" id="loader">
+                        <div class="loading-text">
+                                <span class="loading-text-words">L</span>
+                                <span class="loading-text-words">O</span>
+                                <span class="loading-text-words">A</span>
+                                <span class="loading-text-words">D</span>
+                                <span class="loading-text-words">I</span>
+                                <span class="loading-text-words">N</span>
+                                <span class="loading-text-words">G</span>
+                        </div>
+                </div>
+                <div id="main" class="w-full bg-[#D8D2CD] pt-[2vh] overflow-hidden">
+                        <div class="grid grid-cols-4 grid-rows-35 gap-2">
+                                <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 2;"><img
+                                                src="./compressedImages/1.jpg" alt="Image 1"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 4;"><img
+                                                src="./compressedImages/2.jpg" alt="Image 2"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 3;"><img
+                                                src="./compressedImages/3.jpg" alt="Image 3"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 1;"><img
+                                                src="./compressedImages/4.jpg" alt="Image 4"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 4;"><img
+                                                src="./compressedImages/5.jpg" alt="Image 5"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 1;"><img
+                                                src="./compressedImages/6.jpg" alt="Image 6"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 2;"><img
+                                                src="./compressedImages/7.jpg" alt="Image 7"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 3;"><img
+                                                src="./compressedImages/8.jpg" alt="Image 8"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 1;"><img
+                                                src="./compressedImages/9.jpg" alt="Image 9"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 4;"><img
+                                                src="./compressedImages/10.jpg" alt="Image 10"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 3;"><img
+                                                src="./compressedImages/11.jpg" alt="Image 11"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 2;"><img
+                                                src="./compressedImages/12.jpg" alt="Image 12"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 4;"><img
+                                                src="./compressedImages/13.jpg" alt="Image 13"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 1;"><img
+                                                src="./compressedImages/14.jpg" alt="Image 14"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 3;"><img
+                                                src="./compressedImages/15.jpg" alt="Image 15"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 2;"><img
+                                                src="./compressedImages/16.jpg" alt="Image 16"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 4;"><img
+                                                src="./compressedImages/17.jpg" alt="Image 17"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 1;"><img
+                                                src="./compressedImages/18.jpg" alt="Image 18"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 11; --c: 3;"><img
+                                                src="./compressedImages/19.jpg" alt="Image 19"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 11; --c: 2;"><img
+                                                src="./compressedImages/20.jpg" alt="Image 20"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 12; --c: 4;"><img
+                                                src="./compressedImages/21.jpg" alt="Image 21"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 12; --c: 3;"><img
+                                                src="./compressedImages/22.jpg" alt="Image 22"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 13; --c: 1;"><img
+                                                src="./compressedImages/23.jpg" alt="Image 23"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 13; --c: 4;"><img
+                                                src="./compressedImages/24.jpg" alt="Image 24"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 14; --c: 2;"><img
+                                                src="./compressedImages/25.jpg" alt="Image 25"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 14; --c: 1;"><img
+                                                src="./compressedImages/26.jpg" alt="Image 26"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 15; --c: 3;"><img
+                                                src="./compressedImages/27.jpg" alt="Image 27"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 15; --c: 2;"><img
+                                                src="./compressedImages/28.jpg" alt="Image 28"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 16; --c: 4;"><img
+                                                src="./compressedImages/29.jpg" alt="Image 29"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 16; --c: 3;"><img
+                                                src="./compressedImages/30.jpg" alt="Image 30"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 17; --c: 1;"><img
+                                                src="./compressedImages/31.jpg" alt="Image 31"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 17; --c: 2;"><img
+                                                src="./compressedImages/32.jpg" alt="Image 32"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 18; --c: 3;"><img
+                                                src="./compressedImages/33.jpg" alt="Image 33"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 18; --c: 4;"><img
+                                                src="./compressedImages/34.jpg" alt="Image 34"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 19; --c: 1;"><img
+                                                src="./compressedImages/35.jpg" alt="Image 35"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 19; --c: 2;"><img
+                                                src="./compressedImages/36.jpg" alt="Image 36"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 20; --c: 4;"><img
+                                                src="./compressedImages/37.jpg" alt="Image 37"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 20; --c: 1;"><img
+                                                src="./compressedImages/38.jpg" alt="Image 38"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 21; --c: 3;"><img
+                                                src="./compressedImages/39.jpg" alt="Image 39"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 21; --c: 4;"><img
+                                                src="./compressedImages/40.jpg" alt="Image 40"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 22; --c: 2;"><img
+                                                src="./compressedImages/41.jpg" alt="Image 41"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 22; --c: 1;"><img
+                                                src="./compressedImages/42.jpg" alt="Image 42"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 23; --c: 3;"><img
+                                                src="./compressedImages/43.jpg" alt="Image 43"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 23; --c: 4;"><img
+                                                src="./compressedImages/44.jpg" alt="Image 44"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 24; --c: 1;"><img
+                                                src="./compressedImages/45.jpg" alt="Image 45"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 26; --c: 1;"><img
+                                                src="./compressedImages/46.jpg" alt="Image 46"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 26; --c: 3;"><img
+                                                src="./compressedImages/47.jpg" alt="Image 47"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 27; --c: 4;"><img
+                                                src="./compressedImages/48.jpg" alt="Image 48"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 27; --c: 3;"><img
+                                                src="./compressedImages/49.jpg" alt="Image 49"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 28; --c: 4;"><img
+                                                src="./compressedImages/50.jpg" alt="Image 50"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 28; --c: 2;"><img
+                                                src="./compressedImages/51.jpg" alt="Image 51"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 29; --c: 1;"><img
+                                                src="./compressedImages/52.jpg" alt="Image 52"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 29; --c: 3;"><img
+                                                src="./compressedImages/53.jpg" alt="Image 53"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 30; --c: 4;"><img
+                                                src="./compressedImages/54.jpg" alt="Image 54"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 30; --c: 2;"><img
+                                                src="./compressedImages/55.jpg" alt="Image 55"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 31; --c: 2;"><img
+                                                src="./compressedImages/56.jpg" alt="Image 56"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 31; --c: 1;"><img
+                                                src="./compressedImages/57.jpg" alt="Image 57"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 32; --c: 4;"><img
+                                                src="./compressedImages/58.jpg" alt="Image 58"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 32; --c: 1;"><img
+                                                src="./compressedImages/59.jpg" alt="Image 59"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 33; --c: 4;"><img
+                                                src="./compressedImages/60.jpg" alt="Image 60"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 33; --c: 2;"><img
+                                                src="./compressedImages/61.jpg" alt="Image 61"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 34; --c: 3;"><img
+                                                src="./compressedImages/22.jpg" alt="Image 62"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 35; --c: 4;"><img
+                                                src="./compressedImages/63.jpg" alt="Image 63"></div>
+                                <div class="elem col-span-1 row-span-1" style="--r: 35; --c: 2;"><img
+                                                src="./compressedImages/64.jpg" alt="Image 64"></div>
+                        </div>
+                        <div
+                                class="fixed top-0 left-0  w-full h-full flex flex-col items-center justify-center text-black">
+                                <h1 class="text-5xl font-bold font- text-center"
+                                        style="color: rgba(0, 0, 0, 0.85); font-family: Helv;">
+                                        HAPPY <br>BIRTHDAY
+                                        <br>NENCY<sup>®</sup>
+                                </h1>
+                                <h2 class="text-2xl font-bold tracking-tighter">お誕生日おめでとう、ネンシー</h2>
+                        </div>
+                        <div
+                                class="w-full h-screen bg-[#C3BCBC] mx-auto py-12 relative flex flex-col items-center justify-center z-[999] text-center relative">
+                                <p class="text-black leading-[2rem] w-4/5 text-[1.25em]"
+                                        style="font-family: Helvetica, sans-serif;">
+                                        Happy Birthday Nency Bhai! 🎉🎂
+                                        <br><br>
+                                        Yaar, aaj hum sab milke tereko ek badi si birthday wish bhej rahe hain! 🎈🥳
+                                        Bahaar toh hum log mil nahi sakte, par yeh message tujhe yeh feel dilane ke liye
+                                        hai ki tu humare dil ke paas hai! ❤️
+
+                                        Tere bina yeh din hum sab ke liye incomplete hota. Khush reh, hamesha muskurati
+                                        reh aur party zaroor kar (aur party panding rahegi) ! 💃🎊
+                                        <br> <br> <br>
+                                        With lots of love, <span class="font-Helv font-bold">GHAR KE LOG</span> 🏠👍👍👍
+                                </p>
+                                <div class="text-sm absolute bottom-4"><p>made by <span class="text-blue-700">ron.</span></p></div>
+                        </div>
+                </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+                        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+                        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+                <script>
+                        // Ensure to include the ScrollTrigger plugin
+                        // Show the loader initially
+                        document.getElementById('loader').style.display = 'flex';
+                        document.getElementById('main').style.display = 'none';
+
+                        // Listen for the DOMContentLoaded event
+                        document.addEventListener('DOMContentLoaded', function () {
+                                // Set a timeout to keep the loader visible for a while (e.g., 3 seconds)
+                                // Hide the loader and show the main content
+                                document.getElementById('loader').style.display = 'none';
+                                document.getElementById('main').style.display = 'block';
+                        });
+                </script>
+                <script src="/script.js"></script>
+        </body>
+</html>
